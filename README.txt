@@ -1,10 +1,10 @@
 Frameworks used:
-Spring boot version 1.3.3.RELEASE
-Spring data mongodb: 1.8.4.RELEASE
-mongo-java-driver: 2.13.3.RELEASE
+Spring boot version 1.5.12.RELEASE
+Spring data mongodb: 1.5.12.RELEASE
+mongo-java-driver: 3.7.0.RELEASE
 
 Used mongoDB as the data store
-MongoDB version 3.4.1
+MongoDB version 3.4.3
 
 UserName:rajesh
 Password:aj4JR96alLBdn7Bw 

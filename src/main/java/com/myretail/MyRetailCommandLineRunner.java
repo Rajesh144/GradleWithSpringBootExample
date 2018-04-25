@@ -76,7 +76,7 @@ public class MyRetailCommandLineRunner implements CommandLineRunner {
 
 		System.out.println("Product price update with save(1234l):");
 		System.out.println("--------------------------------");
-		productService.save(productToUpdate);
+//		productService.save(productToUpdate);
 		System.out.println(productService.findOne(1234l));
 	}
 
