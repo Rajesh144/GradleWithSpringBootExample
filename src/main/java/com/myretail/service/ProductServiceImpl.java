@@ -47,7 +47,8 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public List<ProductDto> findAll() {
 		Iterable<Product> models = productRepository.findAll();
-		return productDtoHelper.buildDto(models);
+		Iterable<ProductPrice> modelPrices = productPriceRepository.findAll();
+		return productDtoHelper.buildDto(models, modelPrices);
 	}
 
 	@Override
@@ -149,5 +150,6 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public void deleteAll() {
 		productRepository.deleteAll();
+		productPriceRepository.deleteAll();
 	}
 }
