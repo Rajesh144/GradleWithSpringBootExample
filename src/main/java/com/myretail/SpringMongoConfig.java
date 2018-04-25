@@ -49,5 +49,5 @@ public class SpringMongoConfig extends AbstractMongoConfiguration {
 	@Override
 	protected String getDatabaseName() {
 		return mongoDB;
-	}
+	}	
 }
